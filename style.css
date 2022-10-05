@@ -45,7 +45,8 @@ h2 {
 }
 
 .project > img {
-    max-width: 1.5em;
+    flex-grow: 1;
+    width: 1.5em;
     margin: 0;
 }
 
