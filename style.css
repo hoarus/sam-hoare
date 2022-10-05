@@ -36,17 +36,52 @@ h2 {
 }
 
 /* Projects */
-
-.project {
+.projects-header {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.5em;
 }
 
-.project > img {
-    flex-grow: 1;
+.projects-header > h3 {
+    margin: 0.2em;
+}
+
+.projects-header > img {
     width: 1.5em;
     margin: 0;
 }
 
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project > h4 {
+    margin: 0.5em;
+}
+
+.site-preview {
+    width: 20%;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 1em
+}
+
+.links > a {
+    width: 1em;
+}
+
+.site-link, .code-link {
+    width: 100%;
+    filter: invert(94%) sepia(41%) saturate(997%) hue-rotate(178deg) brightness(114%) contrast(105%);
+}
+
+.site-link:hover, .code-link:hover {
+    filter: invert(78%) sepia(93%) saturate(782%) hue-rotate(327deg) brightness(107%) contrast(87%)
+}
