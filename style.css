@@ -1,7 +1,8 @@
 body {
     background-color: #394053;
     color: #EEF0F2;
-    margin: 1em
+    margin: 1em;
+    font-family: 'Inter', sans-serif;
 }
 
 h2 {
