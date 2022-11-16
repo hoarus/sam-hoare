@@ -3,6 +3,12 @@ body {
     color: #EEF0F2;
     margin: 1em;
     font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.page-container {
+    max-width: 750px;
 }
 
 h2 {
@@ -24,7 +30,7 @@ h2 {
 .headshot {
     border: solid #EEC643 0.2em;
     border-radius: 50%;
-    max-width: 85%;
+    max-width: 60%;
     max-height: 80vh;
 }
 
@@ -48,20 +54,29 @@ h2 {
     margin: 0.2em;
 }
 
-.projects-header > img {
-    width: 1.5em;
-    margin: 0;
-}
+
 
 .project {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 0.5rem;
 }
 
 .project > h4 {
     margin: 0.5em;
+}
+
+.tech-stack {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.tech-stack > img {
+    width: 1.5em;
+    margin: 0;
 }
 
 .site-preview {
