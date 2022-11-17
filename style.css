@@ -23,9 +23,7 @@ h2 {
 
 /* Banner Items */
 
-.banner {
-    
-}
+.banner {}
 
 .headshot {
     border: solid #EEC643 0.2em;
@@ -34,11 +32,11 @@ h2 {
     max-height: 80vh;
 }
 
-.banner > h1 {
+.banner>h1 {
     margin: 0.5em;
 }
 
-.banner > h3 {
+.banner>h3 {
     margin: 0;
 }
 
@@ -50,7 +48,7 @@ h2 {
     gap: 0.5em;
 }
 
-.projects-header > h3 {
+.projects-header>h3 {
     margin: 0.2em;
 }
 
@@ -64,7 +62,7 @@ h2 {
     gap: 0.5rem;
 }
 
-.project > h4 {
+.project>h4 {
     margin: 0.5em;
 }
 
@@ -74,13 +72,18 @@ h2 {
     gap: 1rem;
 }
 
-.tech-stack > img {
+.tech-stack>img {
     width: 1.5em;
     margin: 0;
 }
 
 .site-preview {
-    width: 20%;
+    width: 100%;
+    margin: 1rem;
+}
+
+.italics {
+    font-style: italic;
 }
 
 .links {
@@ -89,15 +92,18 @@ h2 {
     gap: 1em
 }
 
-.links > a {
+.links>a {
     width: 1em;
+    font-size: 1.5rem;
 }
 
-.site-link, .code-link {
+.site-link,
+.code-link {
     width: 100%;
     filter: invert(94%) sepia(41%) saturate(997%) hue-rotate(178deg) brightness(114%) contrast(105%);
 }
 
-.site-link:hover, .code-link:hover {
+.site-link:hover,
+.code-link:hover {
     filter: invert(78%) sepia(93%) saturate(782%) hue-rotate(327deg) brightness(107%) contrast(87%)
 }
