@@ -1,3 +1,5 @@
+import React, {useState} from 'react';
+
 // Stylesheets
 import '../../normalize.css';
 import './App.css';
@@ -8,13 +10,26 @@ import About from '../About/About'
 import Projects from '../Projects/Projects';
 
 function App() {
+  const [selectedSection, selectSection] = useState();
+
+  const DisplaySection = function(){
+    switch(selectedSection) {
+      case "About":
+        return (<About/>);
+      case "Projects":
+        return (<Projects/>)
+      default:
+        return
+    }
+  }
+
   return (
-  <div className="App">
-    <div class="page-container">
-      <Banner/>
-      <About/>
-      <Projects/>
-        
+    <div className="App">
+      <div class="page-container">
+        <Banner
+          selectSection = {selectSection}
+        />
+        <DisplaySection/>        
       </div>
     </div>
   );
