@@ -10,7 +10,7 @@ import About from '../About/About'
 import Projects from '../Projects/Projects';
 
 function App() {
-  const [selectedSection, selectSection] = useState();
+  const [selectedSection, selectSection] = useState("None");
 
   const DisplaySection = function(){
     switch(selectedSection) {
@@ -28,6 +28,7 @@ function App() {
       <div class="page-container">
         <Banner
           selectSection = {selectSection}
+          selectedSection = {selectedSection}
         />
         <DisplaySection/>        
       </div>
