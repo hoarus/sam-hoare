@@ -8,6 +8,8 @@ import './App.css';
 import Banner from '../Banner/Banner';
 import About from '../About/About'
 import Projects from '../Projects/Projects';
+import Certifications from '../Certifications/Certifications';
+import Resume from '../Resume/Resume';
 
 function App() {
   const [selectedSection, selectSection] = useState("None");
@@ -18,6 +20,10 @@ function App() {
         return (<About/>);
       case "Projects":
         return (<Projects/>)
+      case "Certifications":
+        return (<Certifications/>)
+      case "Resume":
+        return (<Resume/>)
       default:
         return
     }

@@ -1,3 +1,10 @@
+# Backlog
+- If menu item is pressed again, deselect and return to Home Screen
+- Flesh out Certifications component
+- Add number system to select the relevant project
+- Update About Me
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
