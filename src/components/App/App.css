@@ -72,6 +72,10 @@ h2 {
   ;
 }
 
+.selected-tab {
+  color: #EEC643;
+}
+
 /* Projects */
 .projects-header {
   display: flex;

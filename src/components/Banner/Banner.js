@@ -15,6 +15,7 @@ export default function Banner(props) {
     <h3>Programming Enthusiast</h3>
     <Menu
       selectSection = {props.selectSection}
+      selectedSection = {props.selectedSection}
     />
   </div>
   )
