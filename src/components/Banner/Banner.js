@@ -10,7 +10,7 @@ export default function Banner(props) {
   <div className= {`banner flex-container ${displayHeadshot && 'max-banner'}`}>
     <h1>Sam Hoare</h1>
     { displayHeadshot && 
-      <img src= {headshot} class="headshot" alt="headshot"/>
+      <img src= {headshot} className="headshot" alt="headshot"/>
     }
     <h3>Programming Enthusiast</h3>
     <Menu

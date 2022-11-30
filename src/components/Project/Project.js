@@ -10,12 +10,12 @@ export default function Project(props){
   const notes = props.notes;
   const Links = function (){
     return(
-      <div class="links">
+      <div className="links">
         <a href={props.links[0]} target="_blank" rel="noreferrer">
-          <img class="site-link" src={linkIcon}/>
+          <img className="site-link" src={linkIcon}/>
         </a>
         <a href={props.links[1]}  target="_blank" rel="noreferrer">
-          <img class="code-link" src={githubIcon}/>
+          <img className="code-link" src={githubIcon}/>
         </a>
         </div>
     )
@@ -29,15 +29,15 @@ export default function Project(props){
 
 
   return(
-    <div class="project">
-    <img src={image} class="site-preview"/>
-    <div class="projects-header">
+    <div className="project">
+    <img src={image} className="site-preview"/>
+    <div className="projects-header">
       <h3>{title}</h3>
     </div>
     <div className="tech-stack">{techIcons}</div>
     {projectDetails}
     <Links/>
-    <p class="italics">{notes}</p>
+    <p className="italics">{notes}</p>
   </div>
   )
 }

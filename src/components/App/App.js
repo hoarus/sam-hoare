@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="App">
-      <div class="page-container">
+      <div className="page-container">
         <Banner
           selectSection = {selectSection}
           selectedSection = {selectedSection}

@@ -89,6 +89,30 @@ h2 {
   margin: 0.2em;
 }
 
+.project-selector {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.select-number {
+  border: solid 2px white;
+  border-radius: 100%;
+  aspect-ratio: 1/1;
+  padding: 0.6rem;
+}
+
+.select-number:hover {
+  color: #EEC643;
+  border-color: #EEC643;
+}
+
+.selected-project {
+  color: #EEC643;
+  border-color: #EEC643;
+}
+
+
 
 
 .project {
