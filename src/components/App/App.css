@@ -51,6 +51,7 @@ h2 {
 
 .menu {
   display: flex;
+  min-width: 500px;
   width: 80%;
   align-items: center;
 }
@@ -144,4 +145,27 @@ h2 {
 .site-link:hover,
 .code-link:hover {
   filter: invert(78%) sepia(93%) saturate(782%) hue-rotate(327deg) brightness(107%) contrast(87%)
+}
+
+/* Certifications */
+.certifications {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.certification-icons {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.certification-icons>a {
+  width: 20%;
+}
+
+.certification-icon {
+  width: 100%;
 }
