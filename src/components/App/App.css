@@ -1,3 +1,6 @@
+/* Temp from rails */
+
+
 body {
   background-color: #394053;
   color: #EEF0F2;
@@ -74,6 +77,66 @@ h2 {
 
 .selected-tab {
   color: #ffc600;
+}
+
+/* Menu Mobile */
+
+.menu-mobile {
+  border: solid 2px #EEF0F2;
+  padding: 0.5rem;
+  text-align: center;
+  width: 30%;
+}
+
+.menu-mobile:hover {
+  border-color: #ffc600;
+  color: #ffc600;
+}
+
+.menu-mobile>* {
+  display: none;
+}
+
+.visible-mobile-menu {
+  box-sizing: border-box;
+  position: absolute;
+  font-size: 3rem;
+  background-color: #394053;
+  border: none;
+  height: 100vh;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.visible-mobile-menu:hover {
+  color: #EEF0F2;
+}
+
+.visible-mobile-tab {
+  color: #EEF0F2;
+  display: block;
+  width: 90%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .menu-mobile {
+    display: none;
+  }
 }
 
 /* Projects */
