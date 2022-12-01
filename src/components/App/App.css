@@ -236,3 +236,7 @@ h2 {
   user-select: none;
   /* Standard syntax */
 }
+
+.text-center {
+  text-align: center;
+}
