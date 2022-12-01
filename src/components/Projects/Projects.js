@@ -37,16 +37,16 @@ export default function Projects(){
           <p> The intended audience are Australian small business owners who wish to
             improve workplace health and safety. They register their company as part of the sign-up process and can
             generate a sign-up link for employees to join. When employees sign up, they are prompted to complete a short
-            survey to identify which training modules are applicable for them. And the owner is able to view the sign-up
+            survey to identify which training modules are applicable for them. The owner is then able to view the sign-up
             status and applicable modules for each employee.</p>
           <p>While the business idea has been put on hold, this application serves as a good representation of my
-            skills. It was written in Ruby on Rails, utilises a Devise plug-in for authentication, and is deployed
+            skills. It was written in Ruby on Rails, utilizes a Devise plug-in for authentication, and is deployed
             via a GitLab CI/CD pipeline that I developed. Please note that the source code is stored in a private GitLab
             repository, but access can be provided upon request.
           </p>
         </div>
         }
-        notes = "Note: Due to the hosting provider (Heroku), there may be a slight delay before the application loads."
+        notes = "Note: Due to the hosting provider I'm using (Heroku), there may be a slight delay before the application loads."
       />
         )
       case 2:

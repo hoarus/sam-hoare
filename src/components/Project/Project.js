@@ -26,14 +26,10 @@ export default function Project(props){
     )
   })
 
-
-
   return(
     <div className="project">
-    <img src={image} className="site-preview"/>
-    <div className="projects-header">
-      <h3>{title}</h3>
-    </div>
+    <a href={props.links[0]} target="_blank" rel="noreferrer"><img src={image} className="site-preview"/></a>
+    <a href={props.links[0]} target="_blank" rel="noreferrer"><h3 className="project-title">{title}</h3></a>
     <div className="tech-stack">{techIcons}</div>
     {projectDetails}
     <Links/>

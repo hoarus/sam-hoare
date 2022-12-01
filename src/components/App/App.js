@@ -10,6 +10,7 @@ import About from '../About/About'
 import Projects from '../Projects/Projects';
 import Certifications from '../Certifications/Certifications';
 import Resume from '../Resume/Resume';
+import Contact from '../Contact/Contact'
 
 function App() {
   const [selectedSection, selectSection] = useState("None");
@@ -24,6 +25,8 @@ function App() {
         return (<Certifications/>)
       case "Resume":
         return (<Resume/>)
+      case "Contact":
+        return (<Contact/>)
       default:
         return
     }
