@@ -190,6 +190,8 @@ h2 {
   gap: 0.5rem;
 }
 
+
+
 .project-title {
   text-decoration: none;
   color: #EEF0F2;
@@ -218,7 +220,7 @@ h2 {
 
 .site-preview {
   width: 100%;
-  margin: 1rem;
+  margin-block: 1rem;
   border: solid 1px #EEF0F2;
 }
 
@@ -271,6 +273,16 @@ h2 {
   width: 100%;
 }
 
+@media screen and (max-width: 600px) {
+  .certification-icons {
+    flex-direction: column;
+  }
+
+  .certification-icons>a {
+    width: 50%;
+  }
+}
+
 /* Contact */
 .contact-details>* {
   text-decoration: none;
@@ -280,6 +292,13 @@ h2 {
 
 .contact-details>*:hover {
   color: #ffc600;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-details h2 {
+    font-size: 1rem;
+  }
+
 }
 
 /* About */
