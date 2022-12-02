@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.da63635d.css",
-    "main.js": "/static/js/main.ee45a4b4.js",
+    "main.css": "/static/css/main.d8a92a3b.css",
+    "main.js": "/static/js/main.ceb1425b.js",
     "static/media/headshot.jpg": "/static/media/headshot.c7a6db2d6095211bd748.jpg",
     "static/media/workPreparedSnap.png": "/static/media/workPreparedSnap.4369f192ce1f47a5167b.png",
     "static/media/js-icon.png": "/static/media/js-icon.cae65a84867e9d6ad7bf.png",
     "static/media/luma_badge.png": "/static/media/luma_badge.6cb0e4a59699e091b7d0.png",
     "static/media/React-icon.png": "/static/media/React-icon.81ed438b18e24116794d.png",
+    "static/media/Resume - Sam Hoare.pdf": "/static/media/Resume - Sam Hoare.cb2797b6fcbbf4831231.pdf",
     "static/media/professional_scrum_master.webp": "/static/media/professional_scrum_master.ce5c79a2b0d35942838b.webp",
     "static/media/battleship snap.jpg": "/static/media/battleship snap.eecea4d2f058152880d2.jpg",
     "static/media/Flight Booker Snap.PNG": "/static/media/Flight Booker Snap.27636acd2d069aac5864.PNG",
@@ -15,19 +16,18 @@
     "static/media/azure-security-engineer-associate600x600.png": "/static/media/azure-security-engineer-associate600x600.e63ffcd0cfca15bc6e9f.png",
     "static/media/jest-icon.png": "/static/media/jest-icon.b7cd5a617c3a2e926a77.png",
     "static/media/rails-icon.png": "/static/media/rails-icon.1df228c77f738357970b.png",
-    "static/media/scuba_icon.svg": "/static/media/scuba_icon.90aec4146e1139b4aa3ea94a43dca813.svg",
+    "static/media/tech_icon.svg": "/static/media/tech_icon.f0782097807b2cf58b49dc9ef807c250.svg",
     "static/media/travelling_icon.svg": "/static/media/travelling_icon.e54615b627fce24448627040e721e85e.svg",
     "static/media/programming_icon.svg": "/static/media/programming_icon.73ee86f188289fbf33c5fc6ef76ce710.svg",
-    "static/media/writing_icon.svg": "/static/media/writing_icon.a357f777aa77d5e5e1a7e81318b623c5.svg",
-    "static/media/hiking_icon.svg": "/static/media/hiking_icon.f8024bd8c0d346db240ab5043132a133.svg",
+    "static/media/lightbulb_2.svg": "/static/media/lightbulb_2.2f624fe3aae8d440565ede80044e7576.svg",
     "static/media/link.svg": "/static/media/link.8d570e7932c76dd46ad6a328629d0a02.svg",
     "static/media/github.svg": "/static/media/github.04be58c17b3d5e9744424d414240dd85.svg",
     "index.html": "/index.html",
-    "main.da63635d.css.map": "/static/css/main.da63635d.css.map",
-    "main.ee45a4b4.js.map": "/static/js/main.ee45a4b4.js.map"
+    "main.d8a92a3b.css.map": "/static/css/main.d8a92a3b.css.map",
+    "main.ceb1425b.js.map": "/static/js/main.ceb1425b.js.map"
   },
   "entrypoints": [
-    "static/css/main.da63635d.css",
-    "static/js/main.ee45a4b4.js"
+    "static/css/main.d8a92a3b.css",
+    "static/js/main.ceb1425b.js"
   ]
 }
