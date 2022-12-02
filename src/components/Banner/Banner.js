@@ -12,7 +12,7 @@ export default function Banner(props) {
     { displayHeadshot && 
       <img src= {headshot} className="headshot" alt="headshot"/>
     }
-    <h3>Programming Enthusiast</h3>
+    <h3>Web Developer</h3>
     <Menu
       selectSection = {props.selectSection}
       selectedSection = {props.selectedSection}

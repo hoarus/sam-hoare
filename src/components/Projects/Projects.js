@@ -40,7 +40,7 @@ export default function Projects(){
             survey to identify which training modules are applicable for them. The owner is then able to view the sign-up
             status and applicable modules for each employee.</p>
           <p>While the business idea has been put on hold, this application serves as a good representation of my
-            skills. It was written in Ruby on Rails, utilizes a Devise plug-in for authentication, and is deployed
+            skills. It's written in Ruby on Rails, utilizes a Devise plug-in for authentication and a PostgreSQL database for storage, and is deployed
             via a GitLab CI/CD pipeline that I developed. Please note that the source code is stored in a private GitLab
             repository, but access can be provided upon request.
           </p>
@@ -80,11 +80,12 @@ export default function Projects(){
           links = {["https://hoarus.github.io/battleship-react/", "https://github.com/hoarus/battleship-react"]}
           projectDetails = {          
             <div className="project-details">
-            <p>This project is a simple pass-and-play version of the battlship board game.</p>
+            <p>This project is a rendition of the battlship board game. It can either be played one-player (against an AI) or 
+              two-player in a pass-and-play fashion.</p>
             <p>Users are required to input their names before playing. They are then each required to place five ships
               before the game starts. Players then take turns firing at each other's board.</p>
-            <p>I wrote the underlying game logic first using Jest and practicing test driven deployment. Once all unit
-              tests and the game logic were developed, I added a React UI to the app.</p>
+            <p>I wrote the underlying game logic first using Jest and practicing test driven development. Once I develope all
+              unit tests and game logic, I added a user interface using React.</p>
           </div>
           }
         />

@@ -44,6 +44,11 @@ h2 {
   max-height: 80vh;
 }
 
+.mini-headshot {
+  max-width: 20%;
+  border-width: 0.15em;
+}
+
 .banner>h1 {
   margin: 0.5em;
 }
@@ -303,7 +308,7 @@ h2 {
 
 /* About */
 .icon {
-  max-width: 15%;
+  max-width: 10%;
   height: auto;
   filter: brightness(0) saturate(100%) invert(75%) sepia(72%) saturate(2218%) hue-rotate(2deg) brightness(104%) contrast(110%);
 }
