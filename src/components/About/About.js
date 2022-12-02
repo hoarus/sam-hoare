@@ -14,7 +14,7 @@ export default function About(){
     <div className="about flex-container">
       <h2>About Me</h2>
       <img src= {headshot} className="headshot mini-headshot" alt="headshot"/>
-      <p>I am a passionate, self-taught, fullstack web developer, with experience in Ruby on Rails, Javascript, React, Azure and AWS.</p>
+      <p>I am a passionate, self-taught, full stack web developer, with experience in Ruby on Rails, JavaScript, React, Azure and AWS.</p>
       <h3>My Programming Journey</h3>
       <img src={travellingIcon}className="icon"/>
       <p>
@@ -25,9 +25,9 @@ export default function About(){
       <img src={programmingIcon}className="icon"/>
       <p>The Odin Project, an open source coding curriculum, added structure to my journey and  served as a pathway to 
         code documentation, learning resources, and recommended projects to practice my craft.
-        I began with the fundamentals of HTML and CSS, then the basics of Javascript and responsive design.
+        I began with the fundamentals of HTML and CSS, then the basics of JavaScript and responsive design.
         I then taught myself Ruby and object-oriented programming, before learning Ruby on Rails and developing a series of 
-        fullstack applications. Finally, I revisited Javascript to master the fundamentals, practice Test Driven Development 
+        fullstack applications. Finally, I revisited JavaScript to master the fundamentals, practice Test Driven Development 
         and learn React.
       </p>
       <img src={techIcon}className="icon"/>

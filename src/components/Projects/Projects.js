@@ -31,7 +31,7 @@ export default function Projects(){
         links = {["https://workpreparedtest.herokuapp.com/","https://gitlab.com/hoarus/work-prepared"]}
         projectDetails = {          
           <div className="project-details">
-          <p>I developed this fullstack application as a Proof-of-Concept for a friend's business idea.
+          <p>I developed this full stack application as a Proof-of-Concept for a friend's business idea.
             It has the typical static pages associated with a professional website as well as an application component
             sitting behind user authentication.</p>
           <p> The intended audience are Australian small business owners who wish to
