@@ -31,14 +31,19 @@ export default function Projects(){
         links = {["https://workpreparedtest.herokuapp.com/","https://gitlab.com/hoarus/work-prepared"]}
         projectDetails = {          
           <div className="project-details">
-          <p>I developed this full stack application as a Proof-of-Concept for a friend's business idea.
-            It has the typical static pages associated with a professional website as well as an application component
-            sitting behind user authentication.</p>
+          <p>I developed this full stack application as a Proof-of-Concept for a business idea I had with a friend.
+            This project was a great exercise in both creativity and technical ability - I generated all the requirements 
+            through facilitation of design thinking exercises, developed multiple wireframes to gather feedback,
+            and developed the PoC iteratively.</p>
+          <p>This application dynamically renders content based upon the user's sign-in status and role. Unauthenticated users are presented
+            with a professional website consisting of static pages and sign-up/sign-in forms. Once authenticated, users are presented with different 
+            views depending on their role - user, business owner, and site admin.</p>
           <p> The intended audience are Australian small business owners who wish to
             improve workplace health and safety. They register their company as part of the sign-up process and can
             generate a sign-up link for employees to join. When employees sign up, they are prompted to complete a short
             survey to identify which training modules are applicable for them. The owner is then able to view the sign-up
-            status and applicable modules for each employee.</p>
+            status and applicable modules for each employee. Lastly, as a Site Admin, I'm able to view and delete business and users, and view, edit and delete
+            the videos associated with training modules.</p>
           <p>While the business idea has been put on hold, this application serves as a good representation of my
             skills. It's written in Ruby on Rails, utilizes a Devise plug-in for authentication and a PostgreSQL database for storage, and is deployed
             via a GitLab CI/CD pipeline that I developed. Please note that the source code is stored in a private GitLab
