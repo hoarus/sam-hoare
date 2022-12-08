@@ -27,7 +27,7 @@ export default function About(){
         code documentation, learning resources, and recommended projects to practice my craft.
         I began with the fundamentals of HTML and CSS, then the basics of JavaScript and responsive design.
         I then taught myself Ruby and object-oriented programming, before learning Ruby on Rails and developing a series of 
-        fullstack applications. Finally, I revisited JavaScript to master the fundamentals, practice Test Driven Development 
+        full stack applications. Finally, I revisited JavaScript to master the fundamentals, practice Test Driven Development 
         and learn React.
       </p>
       <img src={techIcon}className="icon"/>

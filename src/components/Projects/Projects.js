@@ -64,7 +64,7 @@ export default function Projects(){
           projectDetails = {          
             <div className="project-details">
             <p>This application represents a small portion of the online flight search and booking
-              process. I have stripped it back to a minimalistic design and focused on simplified user experience.</p>
+              process. I have stripped it back to a minimalist design and focused on simplified user experience.</p>
             <p>Users are able to search for flights from a select list of airports. They are then asked to provide
               passenger details for each passenger before confirming the booking. Lastly, booking confirmation emails are
               sent to all passengers.</p>
@@ -89,7 +89,7 @@ export default function Projects(){
               two-player in a pass-and-play fashion.</p>
             <p>Users are required to input their names before playing. They are then each required to place five ships
               before the game starts. Players then take turns firing at each other's board.</p>
-            <p>I wrote the underlying game logic first using Jest and practicing test driven development. Once I develope all
+            <p>I wrote the underlying game logic first using Jest and practicing test driven development. Once I developed all
               unit tests and game logic, I added a user interface using React.</p>
           </div>
           }
